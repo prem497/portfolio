@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>PORTFOLIO WEBSITE</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">PREMCHANDAR</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">HOME</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">ABOUT</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">SKILLS</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">WORK</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main"> 
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title">
+                    Hi, <br>I'am <span class="home_title-color">Premchandar</span><br> Web Designer
+                </h1>
+                <a href="#contact" class="button">CONTACT</a>
+            </div>
+
+            <div class="home_social">
+                <a href="#" class="home_social-icon"><i class='bx bxl-linkedin-square' style='color:#057af1'  ></i></a>
+                <a href="#" class="home_social-icon"><i class='bx bxl-github' style='color:#0e0e0e'  ></i></a>
+            </div>
+
+            <div class="home_img">
+                <img src="images/profile.png" alt="" >
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">ABOUT</h2>
+
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="images/about.jpg" alt="" >
+                </div>
+                <div>
+                    <h2 class="about_subtitle">I'am Premchandar</h2>
+                    <p class="about_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sed earum obcaecati quasi corporis enim autem doloribus odio, commodi nesciunt minus voluptatem dolor molestias! Repudiandae temporibus eligendi quos ea sed!</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section"  id="skills">
+            <h2 class="section-title">SKILLS</h2>
+
+            <div class="skills_container bd-grid">
+                <div>
+                    <h2 class="skills_subtitle">Professional Skills</h2>
+                    <p class="skills_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nostrum deserunt aut tenetur praesentium nesciunt dicta ex amet officiis dolor, modi, sapiente sequi aperiam quasi, impedit hic nam ipsa dolore?</p>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-html5' style='color:#f15405'  ></i>
+
+                            <span class="skills_name">HTML 5</span>
+                        </div>
+
+                        <div>
+                            <span class="skills_percentage">95%</span>
+                        </div>
+
+                        <div class="skills_bar skills_html">
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-css3' style='color:#0560f1'  ></i>
+
+                            <span class="skills_name">CSS 3</span>
+                        </div>
+
+                        <div>
+                            <span class="skills_percentage">85%</span>
+                        </div>
+
+                        <div class="skills_bar skills_css">
+                        </div>
+                    </div>
+
+                    <div class="skills_data">
+                        <div class="skills_names">
+                            <i class='bx bxl-javascript' style='color:#f1e105'  ></i>
+
+                            <span class="skills_name">JAVASCRIPT</span>
+                        </div>
+
+                        <div>
+                            <span class="skills_percentage">75%</span>
+                        </div>
+
+                        <div class="skills_bar skills_js">
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/skills.jpg" alt="" class="skills_img">
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title">WORK</h2>
+
+            <div class="work_container bd-grid">
+                <div class="work_img">
+                    <img src="images/work1.jpg" alt="" srcset="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work2.jpg" alt="" srcset="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work3.jpg" alt="" srcset="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work4.jpg" alt="" srcset="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work5.jpg" alt="" srcset="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work6.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">CONTACT</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input">
+                    <input type="mail" placeholder="Email" class="contact_input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact_input"></textarea>
+
+                    <input type="button" value="Send" class="contact_button button">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer_title">Premchandar</p>
+
+        <div class="footer_social">
+            <a href="" class="footer_icon"><i class='bx bxl-facebook-square' style='color:#0041b9'  ></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-instagram' style='color:#eb1109'  ></i></a>
+            <a href="" class="footer_icon"><i class='bx bxl-twitter' style='color:#099beb'  ></i></a>
+        </div>
+        <p>&#169; 2021 - Copyright All Right Reserved.</p>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
